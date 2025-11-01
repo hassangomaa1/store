@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>معرض الأناقة للأجهزة الذكية</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    
+    <nav class="navbar" id="mainNavbar">
+        <div class="logo">معرض الأناقة</div>
+        
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="ابحث عن جهاز..." class="search-input">
+            <button class="search-button"><i class="fa fa-search"></i></button>
+        </div>
+        
+        </nav>
+    
+    <div class="product-container" id="products">
+        
+        <div class="product-card">
+            <img src="product1.jpg" alt="ساعة ذكية X20">
+            <h2 class="product-name">ساعة ذكية X20</h2>
+            <p class="product-price">450 ج</p>
+            <button class="order-button" 
+                    data-product="ساعة ذكية X20"
+                    data-image="https://yourwebsite.com/images/product1.jpg">اطلب الآن عبر واتساب</button>
+        </div>
+
+        <div class="product-card">
+            <img src="product2.jpg" alt="سماعات بلوتوث M5">
+            <h2 class="product-name">سماعات بلوتوث M5</h2>
+            <p class="product-price">120 ج</p>
+            <button class="order-button" 
+                    data-product="سماعات بلوتوث M5"
+                    data-image="https://yourwebsite.com/images/product2.jpg">اطلب الآن عبر واتساب</button>
+        </div>
+        
+        <div class="product-card">
+            <img src="product3.jpg" alt="شاحن لاسلكي سريع">
+            <h2 class="product-name">فنجان عليه اسمك</h2>
+            <p class="product-price">85 ج</p>
+            <button class="order-button" 
+                    data-product="فنجان عليه اسمك"
+                    data-image="https://yourwebsite.com/images/product3.jpg">اطلب الآن عبر واتساب</button>
+        </div>
+
+        <div class="product-card">
+            <img src="product4.jpg" alt="كاميرا مراقبة منزلية">
+            <h2 class="product-name">صورتك على فنجان</h2>
+            <p class="product-price">299 ج</p>
+            <button class="order-button" 
+                    data-product="صورتك على فنجان"
+                    data-image="https://yourwebsite.com/images/product4.jpg">اطلب الآن عبر واتساب</button>
+        </div>
+        
+        </div>
+
+    <a href="https://wa.me/201116156583?text=مرحباً، لدي استفسار عام بخصوص المنتجات المعروضة." 
+       target="_blank" 
+       class="floating-whatsapp-btn">
+        <i class="fab fa-whatsapp"></i>
+        <span>خدمة العملاء</span>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
